@@ -68,3 +68,7 @@ dnf install google-chrome-stable
 cd ~
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 cat .ssh/id_rsa.pub
+
+## Setting email in Git
+git config --global user.email "your_email@example.com"
+git config --global user.email
