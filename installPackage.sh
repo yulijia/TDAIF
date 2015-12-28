@@ -31,7 +31,6 @@ dnf upgrade
 dnf install -y julia
 
 ## install R
-
 dnf install R
 
 ## install gnome tweak tool
@@ -64,3 +63,8 @@ dnf install -y texlive-titlesec
 
 ## try install chrome
 dnf install google-chrome-stable
+
+## generate SSH key
+cd ~
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+cat .ssh/id_rsa.pub
