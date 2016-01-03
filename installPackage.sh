@@ -72,3 +72,14 @@ cat .ssh/id_rsa.pub
 ## Setting email in Git
 git config --global user.email "your_email@example.com"
 git config --global user.email
+
+## install ruby gem
+dnf install -y ruby ruby-devel
+
+## change RubyGems Mirror (fuck GFW)
+gem sources --remove https://rubygems.org/
+gem sources -a https://ruby.taobao.org/
+gem sources -l
+
+## install jekyll
+gem install jekyll
