@@ -81,5 +81,7 @@ gem sources --remove https://rubygems.org/
 gem sources -a https://ruby.taobao.org/
 gem sources -l
 
-## install jekyll
+## install jekyll and jekyll-paginate
 gem install jekyll
+gem install jekyll-paginate
+gem install pygments.rb
