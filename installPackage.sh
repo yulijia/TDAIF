@@ -85,6 +85,7 @@ gem sources -l
 gem install jekyll
 gem install jekyll-paginate
 gem install pygments.rb
+gem install kramdown rouge
 
 ## install  all decoders including h.264 decoder and MPEG-4 AAC decoder
 dnf install gstreamer-plugins-bad gstreamer-plugins-bad-free-extras gstreamer-plugins-bad-nonfree gstreamer-plugins-ugly gstreamer-ffmpeg
