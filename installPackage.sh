@@ -10,6 +10,12 @@ dnf install -y texlive-latex
 dnf install -y texlive-xetex
 dnf install -y gummi
 
+## install trash-cli
+
+dnf install -y trash-cli
+
+echo " alias rm='trash-put' " >> ~/.bashrc
+
 ## install redshift
 dnf install -y redshift*
 
