@@ -67,6 +67,9 @@ dnf install -y texlive-xltxtra
 dnf install -y texlive-layaureo
 dnf install -y texlive-titlesec
 
+## install texlive style file
+dnf install -y texlive-comment
+
 ## try install chrome
 dnf install google-chrome-stable
 
