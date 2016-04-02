@@ -28,8 +28,9 @@ dnf upgrade
 dnf install skype
 
 ## install shadowsocks-gui for linux
-
+dnf copr enable librehat/shadowsocks
 dnf install -y shadowsocks-qt5
+
 
 ## install julialang
 dnf copr enable nalimilan/julia
