@@ -6,7 +6,6 @@ dnf install -y vim
 
 ## install latex xetex and gummi
 dnf install -y texlive
-dnf install -y texlive-latex
 dnf install -y texlive-xetex
 dnf install -y gummi
 
