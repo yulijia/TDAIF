@@ -91,7 +91,7 @@ gem sources -l
 ## install jekyll and jekyll-paginate
 gem install -y jekyll
 gem install -y jekyll-paginate
-gem install -y pygments.rb
+#gem install -y pygments.rb
 gem install -y kramdown rouge
 gem install -y rdiscount
 
