@@ -52,10 +52,10 @@ dnf upgrade
 dnf install -y gstreamer-plugins-ugly
 
 ## install Chinese pinyin input method
-dnf install libpinyin
-dnf install ibus-libpinyin
-dnf install ibus
-dnf install ibus-devel
+#dnf install libpinyin
+#dnf install ibus-libpinyin
+#dnf install ibus
+#dnf install ibus-devel
 
 ## install Chinese font
 dnf install -y wqy*
