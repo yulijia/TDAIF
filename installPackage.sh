@@ -47,10 +47,9 @@ dnf install -y git
 dnf install -y git-gui
 
 ## install mp3
-dnf install gstreamer1-plugins-ugly
 su -c 'dnf install http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm http://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm'
 dnf upgrade
-dnf install gstreamer-plugins-ugly
+dnf install -y gstreamer-plugins-ugly
 
 ## install Chinese pinyin input method
 dnf install libpinyin
