@@ -42,8 +42,7 @@ dnf install -y R
 ## install gnome tweak tool
 dnf install -y gnome-tweak-tool
 
-## install git and git-gui
-dnf install -y git
+## install git-gui
 dnf install -y git-gui
 
 ## install mp3
