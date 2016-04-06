@@ -89,11 +89,11 @@ gem sources -a https://ruby.taobao.org/
 gem sources -l
 
 ## install jekyll and jekyll-paginate
-gem install -y jekyll
-gem install -y jekyll-paginate
-#gem install -y pygments.rb
-gem install -y kramdown rouge
-gem install -y rdiscount
+gem install jekyll
+gem install jekyll-paginate
+#gem install pygments.rb
+gem install kramdown rouge
+gem install rdiscount
 
 ## install  all decoders including h.264 decoder and MPEG-4 AAC decoder
 dnf install -y gstreamer-plugins-bad gstreamer-plugins-bad-free-extras gstreamer-plugins-bad-nonfree gstreamer-plugins-ugly gstreamer-ffmpeg
