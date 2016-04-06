@@ -79,7 +79,7 @@ cat .ssh/id_rsa.pub
 
 ## Setting email in Git
 git config --global user.email "your_email@example.com"
-git config --global user.email
+git config --global user.name "yulijia"
 
 ## install ruby gem
 dnf install -y ruby ruby-devel
