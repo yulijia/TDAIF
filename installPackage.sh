@@ -37,14 +37,14 @@ dnf upgrade
 dnf install -y julia
 
 ## install R
-dnf install R
+dnf install -y R
 
 ## install gnome tweak tool
-dnf install gnome-tweak-tool
+dnf install -y gnome-tweak-tool
 
 ## install git and git-gui
-dnf install git
-dnf install git-gui
+dnf install -y git
+dnf install -y git-gui
 
 ## install mp3
 dnf install gstreamer1-plugins-ugly
@@ -59,7 +59,7 @@ dnf install ibus
 dnf install ibus-devel
 
 ## install Chinese font
-dnf install wqy*
+dnf install -y wqy*
 
 ## install xetex dependencies
 dnf install -y texlive-euenc
@@ -71,7 +71,7 @@ dnf install -y texlive-titlesec
 dnf install -y texlive-comment
 
 ## try install chrome
-dnf install google-chrome-stable
+dnf install -y google-chrome-stable
 
 ## generate SSH key
 cd ~
@@ -91,15 +91,15 @@ gem sources -a https://ruby.taobao.org/
 gem sources -l
 
 ## install jekyll and jekyll-paginate
-gem install jekyll
-gem install jekyll-paginate
-gem install pygments.rb
-gem install kramdown rouge
-gem install rdiscount
+gem install -y jekyll
+gem install -y jekyll-paginate
+gem install -y pygments.rb
+gem install -y kramdown rouge
+gem install -y rdiscount
 
 ## install  all decoders including h.264 decoder and MPEG-4 AAC decoder
-dnf install gstreamer-plugins-bad gstreamer-plugins-bad-free-extras gstreamer-plugins-bad-nonfree gstreamer-plugins-ugly gstreamer-ffmpeg
-dnf install gstreamer1-libav gstreamer1-plugins-bad-free-extras gstreamer1-plugins-bad-freeworld gstreamer1-plugins-base-tools gstreamer1-plugins-good-extras gstreamer1-plugins-ugly gstreamer1-plugins-bad-free gstreamer1-plugins-good gstreamer1-plugins-base gstreamer1
+dnf install -y gstreamer-plugins-bad gstreamer-plugins-bad-free-extras gstreamer-plugins-bad-nonfree gstreamer-plugins-ugly gstreamer-ffmpeg
+dnf install -y gstreamer1-libav gstreamer1-plugins-bad-free-extras gstreamer1-plugins-bad-freeworld gstreamer1-plugins-base-tools gstreamer1-plugins-good-extras gstreamer1-plugins-ugly gstreamer1-plugins-bad-free gstreamer1-plugins-good gstreamer1-plugins-base gstreamer1
 
 ## install unrar
 dnf install unrar -y
