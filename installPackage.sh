@@ -18,6 +18,14 @@ echo "alias rm='trash-put' " >> ~/.bashrc
 ## install redshift
 dnf install -y redshift*
 
+echo "
+[redshift]
+allowed=true
+system=false
+users=
+" >> /etc/geoclue/geoclue.conf
+
+
 ## install gcc
 dnf install -y gcc
 
