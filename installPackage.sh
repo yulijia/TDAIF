@@ -84,9 +84,15 @@ cd ~
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 cat .ssh/id_rsa.pub
 
-## Setting email in Git
+## Setting email and username in Git
 git config --global user.email "your_email@example.com"
 git config --global user.name "yulijia"
+
+curl https://gist.githubusercontent.com/Linell/bd8100c4e04348c7966d/raw/84c0ea6e0f0a1431d406be6b7bb6e136949090cd/.git-commit-template.txt >> ~/.git-commit-template.txt
+git config --global commit.template ~/.git-commit-template.txt
+
+curl https://gist.githubusercontent.com/yulijia/fe2522fe138b6ed41ff4/raw/1e90ec272180dba299f5ad861e72dfab876c0c5b/.git-commit-blog.txt >> ~/.git-commit-template.txt
+git config --global commit.template ~/.git-commit-template.txt
 
 ## install ruby gem
 dnf install -y ruby ruby-devel
@@ -109,3 +115,5 @@ dnf install -y gstreamer1-libav gstreamer1-plugins-bad-free-extras gstreamer1-pl
 
 ## install unrar
 dnf install unrar -y
+
+
