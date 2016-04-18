@@ -116,4 +116,8 @@ dnf install -y gstreamer1-libav gstreamer1-plugins-bad-free-extras gstreamer1-pl
 ## install unrar
 dnf install unrar -y
 
+## install python 3.5
 
+dnf copr enable -y mstuchli/Python3.5
+dnf install -y python35-python3
+python3.5
