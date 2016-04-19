@@ -121,3 +121,7 @@ dnf install unrar -y
 dnf copr enable -y mstuchli/Python3.5
 dnf install -y python35-python3
 python3.5
+
+## inorder to install RCurl you should install libcurl and libcurl-devel first
+
+dnf install libcurl-devel -y
