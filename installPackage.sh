@@ -125,3 +125,7 @@ python3.5
 ## inorder to install RCurl you should install libcurl and libcurl-devel first
 
 dnf install libcurl-devel -y
+
+## read and write jpeg in R
+
+dnf install libjpeg-devel -y
