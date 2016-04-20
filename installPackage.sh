@@ -131,6 +131,6 @@ dnf install libcurl-devel -y
 dnf install libjpeg-devel -y
 
 ## On server, to download pan.baidu.com/xxxx data, you need BaiduExporter
-
-dnf install aria2
+## Doesn't work now
+## dnf install aria2 
 
