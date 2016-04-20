@@ -129,3 +129,8 @@ dnf install libcurl-devel -y
 ## read and write jpeg in R
 
 dnf install libjpeg-devel -y
+
+## On server, to download pan.baidu.com/xxxx data, you need BaiduExporter
+
+dnf install aria2
+
