@@ -1,2 +1,2 @@
 #!/bin/bash
-python3 -m pip BeautifulSoup
+python3.5 -m pip BeautifulSoup
