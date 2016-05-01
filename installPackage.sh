@@ -134,3 +134,5 @@ dnf install libjpeg-devel -y
 ## Doesn't work now
 ## dnf install aria2 
 
+## V8 Javascript engine
+dnf install v8-devel -y
