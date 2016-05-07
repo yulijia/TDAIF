@@ -142,3 +142,9 @@ dnf install openssl-devel -y
 
 ## install tufte latex 
 dnf install texlive-tufte-latex -y
+dnf install texlive-units -y
+dnf install texlive-ulem -y
+dnf install texlive-morefloats -y
+#dnf install texlive-ctex -y
+dnf install texlive-savesym -y
+dnf install texlive-xecjk -y
