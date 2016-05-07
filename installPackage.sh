@@ -139,3 +139,6 @@ dnf install v8-devel -y
 
 ## install openssl developmet tool to support R devtools 
 dnf install openssl-devel -y
+
+## install tufte latex 
+dnf install texlive-tufte-latex -y
