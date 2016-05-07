@@ -136,3 +136,6 @@ dnf install libjpeg-devel -y
 
 ## V8 Javascript engine
 dnf install v8-devel -y
+
+## install openssl developmet tool to support R devtools 
+dnf install openssl-devel -y
