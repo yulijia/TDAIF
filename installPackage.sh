@@ -148,3 +148,5 @@ dnf install texlive-morefloats -y
 #dnf install texlive-ctex -y
 dnf install texlive-savesym -y
 dnf install texlive-xecjk -y
+dnf install texlive-hardwrap -y
+dnf install texlive-lipsum -y
