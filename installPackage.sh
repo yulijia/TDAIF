@@ -150,3 +150,6 @@ dnf install texlive-savesym -y
 dnf install texlive-xecjk -y
 dnf install texlive-hardwrap -y
 dnf install texlive-lipsum -y
+
+## install CC icon 
+dnf install texlive-ccicons -y
