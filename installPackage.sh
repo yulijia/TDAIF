@@ -151,5 +151,10 @@ dnf install texlive-xecjk -y
 dnf install texlive-hardwrap -y
 dnf install texlive-lipsum -y
 
-## install CC icon 
+## install creative commons icon 
 dnf install texlive-ccicons -y
+
+## install texlive package for bookdown 
+dnf install texlive-mathspec -y
+dnf install texlive-framed -y
+dnf install texlive-titling -y
