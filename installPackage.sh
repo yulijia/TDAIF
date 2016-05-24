@@ -38,6 +38,9 @@ dnf install skype
 dnf copr enable librehat/shadowsocks
 dnf install -y shadowsocks-qt5
 
+## install dropbox
+dnf install nautilus-dropbox -y
+cd ~ && wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf -
 
 ## install julialang
 dnf copr enable nalimilan/julia
