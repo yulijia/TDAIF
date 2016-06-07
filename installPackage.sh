@@ -161,3 +161,6 @@ dnf install texlive-ccicons -y
 dnf install texlive-mathspec -y
 dnf install texlive-framed -y
 dnf install texlive-titling -y
+
+## needed by IJulia 
+dnf  install zeromq3* -y
