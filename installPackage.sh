@@ -164,3 +164,7 @@ dnf install texlive-titling -y
 
 ## needed by IJulia 
 dnf  install zeromq3* -y
+
+## install atom, it will install a lot of nodejs package
+sudo dnf copr enable mosquito/atom
+dnf install atom -y
