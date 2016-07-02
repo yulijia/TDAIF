@@ -168,3 +168,6 @@ dnf  install zeromq3* -y
 ## install atom, it will install a lot of nodejs package
 sudo dnf copr enable mosquito/atom
 dnf install atom -y
+
+## install ImageMagick for R animation package
+dnf install ImageMagick -y
