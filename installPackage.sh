@@ -171,3 +171,6 @@ dnf install atom -y
 
 ## install ImageMagick for R animation package
 dnf install ImageMagick -y
+
+## install aria2 for baidu yun
+dnf install aria2 -y
