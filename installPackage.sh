@@ -174,3 +174,8 @@ dnf install ImageMagick -y
 
 ## install aria2 for baidu yun
 dnf install aria2 -y
+
+## insatll fancyhdr and moderncv
+
+dnf install texlive-fancyhdr -y
+dnf install texlive-moderncv -y
