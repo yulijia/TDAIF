@@ -179,3 +179,6 @@ dnf install aria2 -y
 
 dnf install texlive-fancyhdr -y
 dnf install texlive-moderncv -y
+
+## install biblatex package for poster (https://github.com/ppletscher/beamerthemeposterzurich)
+dnf install texlive-biblatex -y
