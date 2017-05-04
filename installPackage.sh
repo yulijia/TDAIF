@@ -185,3 +185,7 @@ dnf install texlive-biblatex -y
 
 ## install sensors to control fan and cpu
 dnf install lm_sensors -y
+
+## install golang, start learn it
+
+dnf install golang -y
