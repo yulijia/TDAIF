@@ -30,9 +30,9 @@ users=
 dnf install -y gcc
 
 ## add skype repo and install skype
-dnf config-manager --add-repo=http://negativo17.org/repos/fedora-skype.repo
-dnf upgrade
-dnf install skype
+#dnf config-manager --add-repo=http://negativo17.org/repos/fedora-skype.repo
+#dnf upgrade
+#dnf install skype
 
 ## install shadowsocks-gui for linux
 dnf copr enable librehat/shadowsocks
