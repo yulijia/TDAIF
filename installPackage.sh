@@ -15,8 +15,8 @@ dnf install -y trash-cli
 
 echo "alias rm='trash-put' " >> ~/.bashrc
 
-## install redshift
-dnf install -y redshift*
+## install redshift [fedora 26 night light mode]
+#dnf install -y redshift*
 
 echo "
 [redshift]
