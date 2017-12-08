@@ -189,3 +189,26 @@ dnf install lm_sensors -y
 ## install golang, start learn it
 
 dnf install golang -y
+
+
+
+
+## Fedora repo list
+#_copr_librehat-shadowsocks.repo
+#_copr_mosquito-atom.repo
+#_copr_mstuchli-Python3.5.repo
+#_copr_nalimilan-julia.repo
+#daftaupe-hugo-fedora-26.repo
+#dropbox.repo
+#fedora-cisco-openh264.repo
+#fedora.repo
+#fedora-updates.repo
+#fedora-updates-testing.repo
+#google-chrome.repo
+#rpmfusion-free.repo
+#rpmfusion-free-updates.repo
+#rpmfusion-free-updates-testing.repo
+#rpmfusion-nonfree.repo
+#rpmfusion-nonfree-updates.repo
+#rpmfusion-nonfree-updates-testing.repo
+
